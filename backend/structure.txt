@@ -1,0 +1,21 @@
+backend/
+  ├── config/
+  │   └── db.js
+  ├── controllers/
+  │   ├── authController.js
+  │   ├── classController.js
+  │   ├── subjectController.js
+  │   └── attendanceController.js
+  ├── middleware/
+  │   └── authMiddleware.js
+  ├── models/
+  │   ├── User.js
+  │   ├── Class.js
+  │   ├── Subject.js
+  │   └── Attendance.js
+  ├── routes/
+  │   ├── authRoutes.js
+  │   ├── classRoutes.js
+  │   ├── subjectRoutes.js
+  │   └── attendanceRoutes.js
+  └── server.js 

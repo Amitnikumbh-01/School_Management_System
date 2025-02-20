@@ -1,0 +1,33 @@
+frontend/
+  ├── public/
+  │   ├── index.html
+  │   ├── favicon.ico
+  │   ├── manifest.json
+  │   └── logo192.png
+  ├── src/
+  │   ├── components/
+  │   │   ├── Auth/
+  │   │   │   ├── Login.js
+  │   │   │   └── Register.js
+  │   │   ├── Dashboard/
+  │   │   │   ├── AdminDashboard.js
+  │   │   │   ├── TeacherDashboard.js
+  │   │   │   └── StudentDashboard.js
+  │   │   ├── Class/
+  │   │   │   ├── ClassList.js
+  │   │   │   └── ClassForm.js
+  │   │   ├── Subject/
+  │   │   │   ├── SubjectList.js
+  │   │   │   └── SubjectForm.js
+  │   │   └── Attendance/
+  │   │       ├── AttendanceForm.js
+  │   │       └── AttendanceList.js
+  │   ├── redux/
+  │   │   ├── store.js
+  │   │   └── slices/
+  │   │       ├── authSlice.js
+  │   │       ├── classSlice.js
+  │   │       ├── subjectSlice.js
+  │   │       └── attendanceSlice.js
+  │   ├── App.js
+  │   └── index.js 
