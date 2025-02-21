@@ -1,7 +1,7 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/subjects';
+const API_URL = 'https://school-management-system-back.onrender.com/api/subjects';
 
 export const getSubjects = createAsyncThunk('subject/getSubjects', async (_, { getState }) => {
   const { auth: { userInfo } } = getState();
